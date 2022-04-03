@@ -150,13 +150,13 @@ body {
   height: 600px;
   background: var(--bg-color);
   text-align: center;
-  /* background-image: linear-gradient(to right,
+  background-image: linear-gradient(to right, 
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
     url(../image/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; */
+  background-size: contain; 
 }
 .top-caption {
   font-weight: 900;
@@ -207,7 +207,7 @@ body {
   margin-right: 30px;
 }
 /* specifity-dekoration */
-/* .specificity-list-item:nth-child(1)::before {
+.specificity-list-item:nth-child(1)::before { 
   display: block;
   content: "";
   height: 120px;
@@ -250,7 +250,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
-} */
+} 
 /* specifity-dekoration-end */
 .specificity-list-caption {
   font-weight: 700;
