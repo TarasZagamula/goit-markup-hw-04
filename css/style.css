@@ -479,3 +479,10 @@ body {
 }
 /*=====END MAIN=====*/
 /*=====END PAGE PORTFOLIO=====*/
+.soc-bar {
+  display: flex;
+}
+.soc-svg {
+  width: 44px;
+  height: 44px;
+}
