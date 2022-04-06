@@ -21,25 +21,32 @@
     <header class="page-header">
         <div class="container header-container">
             <nav class="nav-bar">
-                <a class="link page-logo" href="./index.html">Web<span class="page-logo-span">Studio</span></a>
+                <a class="link page-logo page-logo-header" href="./index.html">Web<span
+                        class="page-logo-span">Studio</span></a>
                 <ul class="list nav-list">
                     <li class="nav-list-item">
-                        <a class="link nav-list-link " href="./index.html">Студия</a>
+                        <a class="link nav-list-link" href="./index.html">Студия</a>
                     </li>
                     <li class="nav-list-item">
                         <a class="link nav-list-link current" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="nav-list-item">
-                        <a class="link nav-list-link " href="./index.html">Контакты</a>
+                        <a class="link nav-list-link" href="./index.html">Контакты</a>
                     </li>
                 </ul>
             </nav>
             <ul class="list header-contacts">
                 <li class="contact-item">
-                    <a class="link contacts-mail" href="mailto:info@example.com">info@example.com</a>
+                    <svg class="svg-contact" width="10px" height="16px">
+                        <use href="./image/symbol-defs.svg#tel"></use>
+                    </svg>
+                    <a class="link contact contacts-mail" href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li class="contact-item">
-                    <a class="link contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <svg class="svg-contact" width="16px" height="12px">
+                        <use href="./image/symbol-defs.svg#mail"></use>
+                    </svg>
+                    <a class="link contact contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -126,23 +133,52 @@
    </main>
     <footer class="page-footer">
         <div class="container footer-container">
-            <a class="link page-logo" href="./index.html">Web<span class="footer-logo-span">Studio</span></a>
-            <address class="footer-address">
-                <ul class="list footer-address-list">
-                    <li class="footer-address-list-item">
-                        <a class="link footer-address-link" href="https://goo.gl/maps/qbivKNQmzpoVFrAQ6" target="_blank"
-                            rel="noopener noreferrer">
-                            г. Киев, пр-т Леси Украинки, 26
-                        </a>
-                    </li>
-                    <li class="footer-address-list-item">
-                        <a class="link footer-mail-link" href="mailto:info@example.com">info@example.com</a>
-                    </li>
-                    <li class="footer-address-list-item">
-                        <a class="link footer-tel-link" href="tel:+380961111111">+38 096 111 11 11</a>
-                    </li>
+            <div class="addres-container">
+                <a class="link page-logo-footer page-logo" href="./index.html">Web<span
+                        class="footer-logo-span">Studio</span></a>
+                <address class="footer-address">
+                    <ul class="list footer-address-list">
+                        <li class="footer-address-list-item">
+                            <a class="link footer-address-link" href="https://goo.gl/maps/qbivKNQmzpoVFrAQ6" target="_blank"
+                                rel="noopener noreferrer">
+                                г. Киев, пр-т Леси Украинки, 26
+                            </a>
+                        </li>
+                        <li class="footer-address-list-item">
+                            <a class="link footer-mail-link" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li class="footer-address-list-item">
+                            <a class="link footer-tel-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div>
+                <h2 class="social-title">присоединяйтесь</h2>
+                <ul class="list soc-bar">
+                    <li class="soc-item"><a href="" class="soc-link soc-link-footer">
+                            <svg class="soc-svg">
+                                <use href="./image/symbol-defs.svg#instagram"></use>
+                            </svg>
+                        </a></li>
+                    <li class="soc-item"><a href="" class="soc-link soc-link-footer">
+                            <svg class="soc-svg">
+                                <use href="./image/symbol-defs.svg#twitter"></use>
+                            </svg>
+                        </a></li>
+                    <li class="soc-item"><a href="" class="soc-link soc-link-footer">
+                            <svg class="soc-svg">
+                                <use href="./image/symbol-defs.svg#facebook"></use>
+                            </svg>
+                        </a></li>
+                    <li class="soc-item"><a href="" class="soc-link soc-link-footer">
+                            <svg class="soc-svg">
+                                <use href="./image/symbol-defs.svg#linkedin"></use>
+                            </svg>
+                        </a></li>
+                </ul>
+            </div>
         </div>
-        </ul>
         </address>
     </footer>
 </body>
