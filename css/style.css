@@ -357,7 +357,7 @@ body {
 .footer-logo-span {
   color: var(--second-title-color);
 }
-.page-logo-footer {
+.page-logo-footer-container {
   margin-bottom: 20px;
 }
 .footer-address-list-item:not(:last-child) {
@@ -381,7 +381,7 @@ body {
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
-  color: var(--content-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail-link:hover,
 .footer-mail-link:focus {
@@ -394,7 +394,7 @@ body {
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
-  color: var(--content-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel-link:hover,
 .footer-tel-link:focus {
@@ -450,9 +450,10 @@ body {
   cursor: pointer;
 }
 .btn-bar-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 .portfolio-caption {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
