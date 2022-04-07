@@ -102,6 +102,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-color);
+}
 .nav-list-link.current {
   color: var(--accent-color);
 }
