@@ -110,32 +110,29 @@ body {
   display: flex;
 }
 .contact {
-  margin-left: 10px;
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--content-color);
 }
-.contact-item:hover .link,
-.contact-item:focus .link {
+.contact:hover,
+.contact:focus {
   color: var(--accent-color);
 }
-.contact-item:hover .svg-contact,
-.contact-item:focus .svg-contact {
+.contact:hover .svg-contact,
+.contact:focus .svg-contact {
   color: var(--accent-color);
-}
-.contact-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--content-color);
 }
 .contact-item:not(:last-child) {
   margin-right: 30px;
 }
 .svg-contact {
+  align-self: center;
   fill: currentColor;
+  margin-right: 10px;
 }
 /*=====END HEADER=====*/
 /*=====START MAIN=====*/
@@ -155,7 +152,7 @@ body {
     url(../image/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; 
+  background-size: cover; 
 }
 .top-caption {
   font-weight: 900;
@@ -271,8 +268,10 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--title-color);
+}
+.team-profession {
+  margin-bottom: 10px;
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
@@ -353,6 +352,7 @@ body {
 }
 .footer-container {
   display: flex; 
+  align-items: baseline;
 }
 .footer-logo-span {
   color: var(--second-title-color);
@@ -475,8 +475,7 @@ body {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 .portfolio-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
@@ -489,8 +488,12 @@ body {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
-.portfolio-list-item:hover {
+.portfolio-link:hover {
+  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -500,10 +503,6 @@ body {
   display: flex;
   justify-content: center;
 }
-.soc-item {
-  display:flex ;
-  margin-top: 10px;
-} 
 .soc-link {
   display: flex;
   width: 44px;
